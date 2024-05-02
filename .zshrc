@@ -112,4 +112,8 @@ zstyle ":completion:*:commands" rehash 1
 # autoload -Uz compinit
 # compinit
 
-
+# Command Aliases
+alias du="du -h -s"
+alias df="df -h"
+alias ls="ls -hlF --color=always --group-directories-first"
+alias la="ls -hlAF --color=always --group-directories-first"
